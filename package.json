@@ -1,0 +1,33 @@
+{
+  "name": "project_03_odincafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grtj1417/OdinCafe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grtj1417/OdinCafe/issues"
+  },
+  "homepage": "https://github.com/grtj1417/OdinCafe#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "save-dev": "^0.0.1-security",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "style-loader": "^4.0.0"
+  }
+}

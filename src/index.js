@@ -1,3 +1,12 @@
+//webpack
+
+// import './css/style.css';
+// function importAll(r) {
+//     return r.keys().map(r);
+// }
+
+// const images = importAll(require.context('./img', false, /\.(png|jpe?g|gif|svg)$/));
+
 class OdinCafe{
     constructor(){
         this.header = document.querySelector(".header");
@@ -397,7 +406,7 @@ class OdinCafe{
     }
 }
 
-startListening = new OdinCafe();
+const startListening = new OdinCafe();
 
 startListening.create_header();
 startListening.create_home_page();
