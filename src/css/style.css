@@ -84,6 +84,10 @@ button:active {
     min-height: 80%;
     background: url(../img/background2.jpg);
     padding: 40px;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* home page */
@@ -91,7 +95,7 @@ button:active {
 width: clamp(400px, 95%, 1400px);
 height: 50vw;
 display: flex;
-margin: 0 auto;
+
 background: url(../img/cafe1.jpg) no-repeat center;
 background-size: cover;
 background-position: 50% 40%;
@@ -107,9 +111,12 @@ box-shadow: 3px 3px 5px rgb(125, 125, 125);
     margin: 40px 0 20px;
 }
 
+.about-div {
+    justify-content: center;
+}
+
 .about_text {
-    width: clamp(400px, 70%, 1200px);
-    margin: 0 auto;
+    /* width: clamp(400px, 70%, 1200px); */
     color: var(--font-color);
     text-align: justify;
     line-height: 1.8;
@@ -443,6 +450,10 @@ h2 {
         display: block;
     }
 
+    .main {
+        padding: 30px;
+    }
+
     .map {
         width: 70vw;
         display: flex;
@@ -462,4 +473,5 @@ h2 {
     color: #e4e4d5;
     opacity: 0.9;
     text-align: center;
+    bottom: 0;
 }
